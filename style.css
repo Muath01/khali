@@ -46,20 +46,6 @@ div.flex.control {
           justify-content: space-between;
 }
 
-div.control button {
-  margin: 20px;
-  width: 100px;
-  height: 40px;
-  background-color: #b88967;
-  color: #f0ddb3;
-  border: none;
-  border-radius: 5px;
-}
-
-div.control button:hover {
-  background-color: #99765d;
-}
-
 div.row.flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,10 +75,6 @@ div.odd > .col:nth-of-type(odd) > button:hover {
 div.even > .col:nth-of-type(even) > button {
   background-color: #b88967;
   color: #f0ddb3;
-}
-
-div.even > .col:nth-of-type(even) > button:hover {
-  background-color: #99765d;
 }
 
 div.input button {
